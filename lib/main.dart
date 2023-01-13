@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Amartha Todo App',
+      title: 'Todo App',
       home: BlocProvider(
         create: (_) => DbBloc(),
         child: const Home(),
